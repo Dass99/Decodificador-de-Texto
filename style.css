@@ -1,0 +1,107 @@
+header{
+    text-align: center;
+    color: aqua;
+    font-size: 23px;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    background-image: linear-gradient(to right top, #020202, #0f0920, #121037, #13124e, #161267);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+  }
+  .container{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .loginBox h1{
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    font-size: 50px;
+    border-bottom: 8px solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    color: rgb(2, 255, 255);
+  }
+  
+  .loginBox h2{
+    width: 100%;
+    overflow:hidden;
+    font-size: 13px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px;
+    color: aqua;
+  }
+  
+  h3 {
+    color: aqua;
+  }
+  
+  input{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #368EAA;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 24px;
+    
+  }
+  
+  
+  .button1{
+    border: 0;
+    background: none;
+    margin: 20px 8px;
+    text-align: center;
+    border: 2px solid #26ee26;
+    padding: 20px 14px;
+    color: white;
+    border-radius: 24px;
+   
+  }
+
+  .button2{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #aa3636;
+    padding: 20px 14px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  
+  .button3{
+    border: 0;
+    background: none;
+    margin: -10px 50px;
+    text-align: center;
+    border: 2px solid #368EAA;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 24px;
+   
+  }
+  
+  footer{
+    font-size: 15px;
+    font-family: inherit;
+    color:aqua
+  }
+  
+  
